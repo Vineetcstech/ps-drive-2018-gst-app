@@ -1,0 +1,23 @@
+#layout-topbar {
+    background-color: #20272a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    padding: 0;
+    height: 70px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9997;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+body
+{
+	font-family: Roboto,"Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-weight: 400;
+	color: #404c51;
+	font-size: 1em;
+}
