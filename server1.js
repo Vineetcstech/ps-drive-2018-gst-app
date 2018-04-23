@@ -24,9 +24,9 @@ server.route(
         throw err;
       }
       console.log('The solution is: '+rows[0].solution);
-      //reply=rows[0].solution;
+      reply=rows[0].solution;
     });
-    return reply.file('./client/src/index.html') ;
+    return "The solution is "+reply;
     }
   });
 server.start( function(){
